@@ -40,12 +40,12 @@ while(True):
             print("Counter" + str(counter) + " Number: " + str(num) + "\n")
             counter=counter+1
             num=randint(1,12)
-        else:
-            print("Enter 1-3 only please!\n")
-            continue
-        exit=input("Do you want to exit? yes/no\n")
-        if(exit=="yes"):
-            print("Thank you and have a good day!\n")
-            break
+    else:
+        print("Enter 1-3 only please!\n")
+        continue
+    exit=input("Do you want to exit? yes/no\n")
+    if(exit=="yes"):
+        print("Thank you and have a good day!\n")
+        break
 
 
